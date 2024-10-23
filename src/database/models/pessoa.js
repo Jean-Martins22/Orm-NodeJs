@@ -26,7 +26,7 @@ module.exports = (sequelize, DataTypes) => {
       type: DataTypes.STRING,
       validate: {
         len: {
-          args: [2, 30],
+          args: [3, 30],
           msg: 'o campo nome deve ter no mínimo 3 caracteres'
         }
       }
